@@ -1,0 +1,17 @@
+solana-keygen new --outfile ./wallets/Owner.json
+pubkey: CTaZ5NukK5zeeZYAKqgxNPoTmMzikmBdaxeQNSYmv1GT
+
+solana-keygen new --outfile ./wallets/Treasury.json
+pubkey: GHP4jRhBRmPtgiDzkSD3sMvVpserV75j6SA2YDn5pnYt
+
+solana-keygen new --outfile ./wallets/Creator.json
+pubkey: AAjFFDEzaW9MvTi6KunfB6grGPaxcq9zscsn8tdaxcfT
+
+solana config set --keypair /Users/ahmetceylan/Desktop/Cartoons_Collections/wallets/Owner.json
+solana config set --url https://metaplex.devnet.rpcpool.com/
+
+Collection mint ID: EUKT64GWmc6RNmHrtJJXiZW4yqdQYUVJyyYZM7wqWBH4
+
+Candy machine ID: EGV8RPvfr33RFuDWFPLQHENTauLoUMesJcxPPyKALPGW
+
+git clone https://github.com/metaplex-foundation/candy-machine-ui ./candy-machine-ui/
